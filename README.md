@@ -9,7 +9,7 @@ HTTP PROTOCOL AND WEB SERVER DESIGN
 
 AUTHOR: JAMES MILLER
 
-================================ Summary of Code files ==================================
+================================ Summary of Code files =================================
 
 This set of files constructs a sequential server, per thread
 server, and various thread pool servers that handle HTTP 1.0
@@ -23,7 +23,7 @@ method, Headers (inc. If-Modified-Since and User-Agent),
 URL Mapping, caching, CGI, and heartbeat monitoring. I completed
 each of the thread pool servers.
 
-==================================================================================
+=================================================================================
 
 ============================== How to Compile Files ===================================
 
