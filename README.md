@@ -9,7 +9,7 @@ HTTP PROTOCOL AND WEB SERVER DESIGN
 
 AUTHOR: JAMES MILLER
 
-================================= Summary of Code files ==================================
+================================ Summary of Code files ==================================
 
 This set of files constructs a sequential server, per thread
 server, and various thread pool servers that handle HTTP 1.0
