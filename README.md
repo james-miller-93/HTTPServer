@@ -10,6 +10,7 @@ HTTP PROTOCOL AND WEB SERVER DESIGN
 AUTHOR: JAMES MILLER
 
 ================= Summary of Code files =====================
+
 This set of files constructs a sequential server, per thread
 server, and various thread pool servers that handle HTTP 1.0
 GET requests. The majority of the functionality for this servers
@@ -21,9 +22,11 @@ configuration files (ConfigurationHandler.java), HTTP GET
 method, Headers (inc. If-Modified-Since and User-Agent),
 URL Mapping, caching, CGI, and heartbeat monitoring. I completed
 each of the thread pool servers.
+
 ============================================================
 
 ================ How to Compile Files ======================
+
 Compile in the following order:
 
 - javac Monitor.java
@@ -43,6 +46,7 @@ Compile in the following order:
 ===========================================================
 
 ================ How to Run Servers ======================
+
 Run the client and server in separate terminals. The same client
 will be run each time:
 
@@ -125,6 +129,7 @@ always returns false.
 ==========================================================================
 
 =================== Testing Functionalities =============================
+
 In order to test the functionality of my servers, I used various different
 inputs and verified the correct behavior of the servers.
 
