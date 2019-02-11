@@ -25,7 +25,7 @@ each of the thread pool servers.
 
 ==================================================================================
 
-=============================== How to Compile Files ====================================
+============================== How to Compile Files ===================================
 
 Compile in the following order:
 
@@ -45,7 +45,7 @@ Compile in the following order:
 
 =============================================================================
 
-============================== How to Run Client/Servers ==============================
+============================= How to Run Client/Servers =============================
 
 Run the client and server in separate terminals. The same client
 will be run each time:
