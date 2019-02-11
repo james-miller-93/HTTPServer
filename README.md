@@ -9,7 +9,7 @@ HTTP PROTOCOL AND WEB SERVER DESIGN
 
 AUTHOR: JAMES MILLER
 
-================= Summary of Code files =====================
+=========================== Summary of Code files ===========================
 
 This set of files constructs a sequential server, per thread
 server, and various thread pool servers that handle HTTP 1.0
@@ -23,9 +23,9 @@ method, Headers (inc. If-Modified-Since and User-Agent),
 URL Mapping, caching, CGI, and heartbeat monitoring. I completed
 each of the thread pool servers.
 
-============================================================
+=========================================================================
 
-================ How to Compile Files ======================
+======================= How to Compile Files ============================
 
 Compile in the following order:
 
@@ -43,9 +43,9 @@ Compile in the following order:
 - javac ThreadPoolServer2.java
 - javac ThreadPoolServer3.java
 
-===========================================================
+======================================================================
 
-================ How to Run Servers ======================
+===================== How to Run Client/Servers ======================
 
 Run the client and server in separate terminals. The same client
 will be run each time:
@@ -65,7 +65,7 @@ for example:
 
 java PerThreadServer -config real-config.conf
 
-================ Brief Description of Files ===============
+======================= Brief Description of Files =================
 
 WebRequestHandler.java: this is the majority of the functionality
 of all of the servers. This code implements processing HTTP GET
